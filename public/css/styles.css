@@ -1,0 +1,182 @@
+img {
+    height: 700px;
+    width: 450px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    background: #00000082;
+    bottom: 30px;
+    color: white;
+    position: absolute;
+    font-family: 'Yaldevi';
+    font-weight: 700;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 21px;
+    padding: 4.5px 0;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page-margins {
+    max-width: 960px;
+    margin: 24px auto 12px;
+}
+
+.header-padding {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toasted-container.top-center {
+    top         : 6px !important;
+    font-family : 'Roboto Mono' , sans-serif;
+}
+
+.toasted.toasted-primary,
+.toasted .primary {
+    padding          : 6px 240px !important;
+    background-color : #353535db !important;
+}
+
+.logoname {
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 900;
+    font-size: 22.5px;
+}
+
+.grid-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-layout p {
+    margin-left: 18px;
+    font-size: 15px;
+}
+
+.image-grid {
+    width: 738px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.uploadbox:nth-child(2) {
+    margin-left: 18px;
+}
+
+.submitform {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    border-left: 2.4px solid black;
+    padding-left: 6px;
+}
+
+.comment p {
+    font-size: 15px;
+}
+
+.avatar {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.icon-tabler-link {
+    width: 21px;
+}
+
+.uploadbox {
+    position: relative;
+    border: 1px dotted #8e8e8e;
+    height: 420px;
+    width: 360px;
+    cursor: pointer;
+}
+
+.profile-flex {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px;
+}
+
+.uploadbox > img {
+    filter: brightness(0.75);
+}
+
+.uploadbox:hover {
+    background: #dddddd30;
+}
+
+.form-text input, .form-text select {
+    margin-bottom: 9px;
+}
+
+.uploadbox img {
+    height: 420px;
+    width: 360px;
+    object-fit: cover;
+}
+
+.form-text {
+    margin-top: 30px !important;
+    display: flex; 
+    flex-direction: column;
+    margin: 0 auto;
+    width: 738px;
+}
+
+@media (max-width: 990px) {
+    .header-padding, .page-margins {
+        max-width: 738px;
+    }
+}
+
+@media (max-width: 780px) {
+    .header-padding, .page-margins, .form-text {
+        width: 90%;
+    }
+
+    .image-grid {
+        width: 100%;
+    }
+
+    .uploadbox, .uploadbox img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 636px) {
+    .uploadbox, .uploadbox img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .uploadbox:nth-child(2) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .profile-flex {
+        display: flex;
+    }
+    .page-margins {
+        width: 100%;
+    }
+}
